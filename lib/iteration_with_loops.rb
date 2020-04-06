@@ -13,7 +13,9 @@ def find_even_values(src)
       if src[counter][inner_counter] % 2 == 0
         p src[counter][inner_counter]
       end
+      inner_counter += 1
     end
+    counter += 1
   end
 
 
